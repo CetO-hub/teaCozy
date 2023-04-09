@@ -69,6 +69,12 @@ section:not(:first-child) {
   color: var(--color-primary);
 }
 
+footer {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
 /* ----- Hero ----- */
 
 .hero {
@@ -155,4 +161,15 @@ section:not(:first-child) {
 }
 .locations__card-container .card h4 {
   font-weight: 500;
+}
+
+/* ----- Contact ----- */
+
+section.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200px;
+  line-height: 3;
+  margin-top: 20px;
 }
