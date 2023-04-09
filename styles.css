@@ -1,0 +1,60 @@
+:root {
+  --color-primary: seashell;
+}
+
+/* ----- Elements ----- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--color-primary);
+  font-size: 22px;
+}
+
+p {
+  line-height: 1.4;
+}
+
+img {
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid var(--color-primary);
+  padding: 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  height: 50px;
+  width: auto;
+}
+header a img {
+  height: 100%;
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+/* ----- Header ----- */
+
+.nav__link {
+  color: var(--color-primary);
+}
+
+/* ----- Hero ----- */
